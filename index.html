@@ -1,0 +1,1292 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>男生78怒怼桃子_游戏实况对决合集_主播名场面与高能复盘</title>
+<meta name="description" content="男生78怒怼桃子收录这场联动互怼的游戏实况、名场面切片、逐局复盘与主播直播动态，适合想看高能对线、想学话术节奏和复盘的观众。">
+<meta name="keywords" content="游戏实况对决,主播名场面,互怼切片,直播复盘,高能对线">
+<style>
+:root{
+  --bg:#0d1117;
+  --bg-soft:#131a24;
+  --panel:#17202c;
+  --panel-2:#1d2836;
+  --line:#2a3646;
+  --line-soft:#223040;
+  --text:#e8eef7;
+  --text-2:#a9b8cc;
+  --text-3:#7c8ea6;
+  --brand:#ff5b3d;
+  --brand-2:#ffb03a;
+  --cyan:#3fd0c9;
+  --violet:#9b7bff;
+  --ok:#4fd18b;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+  --ann-h:38px;
+  --head-h:66px;
+  --maxw:1360px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:
+    radial-gradient(1100px 520px at 12% -8%,rgba(255,91,61,.16),transparent 62%),
+    radial-gradient(900px 500px at 92% 2%,rgba(63,208,201,.12),transparent 60%),
+    var(--bg);
+  color:var(--text);font-family:var(--font);font-size:15px;line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:800;letter-spacing:.2px}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--brand-2);outline-offset:3px;border-radius:6px}
+
+/* ============ 吸顶公告条 ============ */
+.annbar{
+  position:sticky;top:0;z-index:60;height:var(--ann-h);
+  display:flex;align-items:center;gap:14px;
+  padding:0 18px;font-size:13px;color:#ffd9cf;
+  background:linear-gradient(90deg,#a8280f,#d8412a 45%,#b3311e);
+  border-bottom:1px solid rgba(255,255,255,.12);
+  overflow:hidden;white-space:nowrap;
+}
+.annbar .dot{width:8px;height:8px;border-radius:50%;background:#ffd166;flex:0 0 auto;box-shadow:0 0 0 4px rgba(255,209,102,.18)}
+.annbar .ann-tag{
+  flex:0 0 auto;font-weight:800;letter-spacing:1px;font-size:12px;
+  background:rgba(0,0,0,.28);padding:2px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.22);
+}
+.annbar .ann-text{overflow:hidden;text-overflow:ellipsis;font-weight:600}
+.annbar a{margin-left:auto;flex:0 0 auto;font-weight:800;color:#fff;border-bottom:1px dashed rgba(255,255,255,.5)}
+
+/* ============ 页头 ============ */
+.site-head{
+  position:sticky;top:var(--ann-h);z-index:55;
+  background:rgba(13,17,23,.9);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:var(--maxw);margin:0 auto;padding:0 20px;height:var(--head-h);
+  display:flex;align-items:center;gap:20px;
+}
+.brand{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+.brand-mark{
+  width:42px;height:42px;border-radius:12px;flex:0 0 auto;
+  background:linear-gradient(140deg,var(--brand),#ff8a3d 55%,var(--brand-2));
+  display:grid;place-items:center;box-shadow:0 6px 18px rgba(255,91,61,.32);
+}
+.brand-mark svg{width:26px;height:26px}
+.brand-name{font-size:19px;font-weight:900;letter-spacing:.5px;white-space:nowrap}
+.brand-name em{font-style:normal;color:var(--brand-2)}
+.brand-sub{display:block;font-size:10px;letter-spacing:2.4px;color:var(--text-3);font-weight:700;margin-top:-4px}
+.main-nav{display:flex;align-items:center;gap:4px;flex:1 1 auto;min-width:0;overflow-x:auto;scrollbar-width:none}
+.main-nav::-webkit-scrollbar{display:none}
+.main-nav a{
+  padding:7px 11px;border-radius:8px;font-size:13.5px;font-weight:700;color:var(--text-2);
+  white-space:nowrap;transition:.18s;
+}
+.main-nav a:hover{color:#fff;background:var(--panel-2)}
+.main-nav a.on{color:#fff;background:rgba(255,91,61,.16);box-shadow:inset 0 0 0 1px rgba(255,91,61,.4)}
+.head-tools{display:flex;align-items:center;gap:9px;flex:0 0 auto}
+.search-wrap{position:relative;display:flex;align-items:center}
+.search-wrap input{
+  width:170px;height:34px;border-radius:999px;border:1px solid var(--line);
+  background:var(--panel);color:var(--text);padding:0 34px 0 13px;font-size:13px;font-family:inherit;
+  transition:.2s;
+}
+.search-wrap input::placeholder{color:var(--text-3)}
+.search-wrap input:focus{outline:none;border-color:var(--brand);width:200px;background:var(--panel-2)}
+.search-wrap svg{position:absolute;right:11px;width:15px;height:15px;color:var(--text-3);pointer-events:none}
+.btn-live{
+  height:34px;padding:0 14px;border-radius:999px;border:none;font-size:13px;font-weight:800;color:#1a0d06;
+  background:linear-gradient(135deg,var(--brand-2),#ffd166);display:flex;align-items:center;gap:6px;
+}
+.btn-live span{width:7px;height:7px;background:#b3260c;border-radius:50%;animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+/* ============ 布局 ============ */
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+.layout{
+  display:grid;grid-template-columns:186px minmax(0,1fr) 268px;gap:26px;
+  align-items:start;padding:26px 0 10px;
+}
+section[id],div[id^="sec-"]{scroll-margin-top:calc(var(--ann-h) + var(--head-h) + 16px)}
+
+/* ============ 首屏 ============ */
+.hero{
+  position:relative;overflow:hidden;border-radius:20px;border:1px solid var(--line);
+  background:
+    radial-gradient(640px 320px at 88% 10%,rgba(255,91,61,.28),transparent 66%),
+    radial-gradient(520px 300px at 6% 100%,rgba(63,208,201,.18),transparent 62%),
+    linear-gradient(160deg,#18212d,#111823 70%);
+  padding:34px 34px 30px;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.85fr);gap:26px;
+  box-shadow:var(--shadow);
+}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:1px;
+  color:#ffd9cf;background:rgba(255,91,61,.16);border:1px solid rgba(255,91,61,.4);
+  padding:4px 12px;border-radius:999px;margin-bottom:16px;
+}
+.hero h1{
+  font-size:clamp(30px,3.7vw,46px);line-height:1.18;letter-spacing:1px;
+  background:linear-gradient(100deg,#fff 12%,#ffd166 58%,var(--brand) 96%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-lead{margin-top:16px;font-size:14.5px;color:var(--text-2);max-width:520px}
+.hero-lead b{color:#fff;font-weight:800}
+.hero-actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:22px}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 20px;border-radius:11px;
+  font-size:14px;font-weight:800;border:1px solid transparent;transition:.2s;
+}
+.btn-main{background:linear-gradient(135deg,var(--brand),#ff7a3d);color:#fff;box-shadow:0 8px 22px rgba(255,91,61,.3)}
+.btn-main:hover{transform:translateY(-2px)}
+.btn-ghost{background:rgba(255,255,255,.05);border-color:var(--line);color:var(--text)}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.hero-stats{display:flex;gap:22px;margin-top:26px;flex-wrap:wrap}
+.hero-stats div{font-size:12px;color:var(--text-3);font-weight:700}
+.hero-stats b{display:block;font-size:21px;color:#fff;font-weight:900;line-height:1.3}
+.hero-stats b i{font-style:normal;font-size:12px;color:var(--brand-2);margin-left:2px}
+
+.hero-visual{position:relative;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.vs-card{
+  border-radius:14px;border:1px solid var(--line);background:rgba(10,15,22,.7);
+  padding:14px 15px;display:flex;align-items:center;gap:12px;
+}
+.vs-avatar{
+  width:46px;height:46px;border-radius:12px;flex:0 0 auto;display:grid;place-items:center;
+  font-weight:900;font-size:15px;color:#0d1117;
+}
+.vs-avatar.a{background:linear-gradient(140deg,#ffb03a,#ff7a3d)}
+.vs-avatar.b{background:linear-gradient(140deg,#9b7bff,#3fd0c9)}
+.vs-info{min-width:0;flex:1}
+.vs-info strong{display:block;font-size:14.5px;font-weight:900}
+.vs-info span{font-size:12px;color:var(--text-3)}
+.vs-score{font-size:22px;font-weight:900;letter-spacing:1px;color:var(--brand-2);font-variant-numeric:tabular-nums}
+.vs-mid{text-align:center;font-size:11px;font-weight:900;letter-spacing:4px;color:var(--text-3)}
+.wave{
+  height:44px;border-radius:12px;border:1px solid var(--line-soft);background:rgba(10,15,22,.5);
+  display:flex;align-items:center;gap:3px;padding:0 12px;overflow:hidden;
+}
+.wave i{display:block;width:3px;border-radius:2px;background:linear-gradient(180deg,var(--brand-2),var(--brand));opacity:.85}
+
+/* ============ 左频道栏 ============ */
+.chan{
+  position:sticky;top:calc(var(--ann-h) + var(--head-h) + 20px);
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:15px 13px;
+}
+.chan h2{font-size:12px;letter-spacing:2px;color:var(--text-3);font-weight:800;padding:0 6px 10px;border-bottom:1px solid var(--line-soft)}
+.chan ul{display:flex;flex-direction:column;gap:2px;margin-top:8px}
+.chan a{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:8px 9px;border-radius:8px;font-size:13.5px;font-weight:700;color:var(--text-2);transition:.16s;
+}
+.chan a:hover{background:var(--panel-2);color:#fff}
+.chan a span{font-size:11px;color:var(--text-3);font-weight:700;font-variant-numeric:tabular-nums}
+.chan-foot{
+  margin-top:12px;padding:11px;border-radius:10px;background:rgba(255,91,61,.09);
+  border:1px solid rgba(255,91,61,.24);font-size:12px;color:#ffcfc4;line-height:1.6;
+}
+.chan-foot b{color:#fff;display:block;font-size:13px;margin-bottom:2px}
+
+/* ============ 主列 / 侧栏通用 ============ */
+.main-col{min-width:0;display:flex;flex-direction:column;gap:24px}
+.side-col{min-width:0;display:flex;flex-direction:column;gap:20px;position:sticky;top:calc(var(--ann-h) + var(--head-h) + 20px)}
+.block{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;
+}
+.block-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:16px;flex-wrap:wrap}
+.block-hd h2{font-size:19px;letter-spacing:.4px;display:flex;align-items:center;gap:9px}
+.block-hd h2::before{
+  content:"";width:5px;height:19px;border-radius:3px;flex:0 0 auto;
+  background:linear-gradient(180deg,var(--brand-2),var(--brand));
+}
+.block-hd p{font-size:12.5px;color:var(--text-3);margin-top:4px}
+.block-hd .more{font-size:12.5px;font-weight:800;color:var(--brand-2);white-space:nowrap}
+.block-hd .more:hover{color:#fff}
+.sec-lead{font-size:13px;color:var(--text-2);margin:-6px 0 16px;padding-left:14px;border-left:2px solid var(--line)}
+
+/* ============ 概览 ============ */
+.overview p{font-size:14.5px;color:var(--text-2);margin-bottom:12px}
+.overview p:last-child{margin-bottom:0}
+.overview strong{color:#fff}
+.overview .hl{color:var(--brand-2);font-weight:800}
+.ov-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px}
+.tag{
+  font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px;
+  background:rgba(63,208,201,.12);color:#8fe9e5;border:1px solid rgba(63,208,201,.28);
+}
+.tag.b{background:rgba(255,176,58,.12);color:#ffd08a;border-color:rgba(255,176,58,.3)}
+.tag.v{background:rgba(155,123,255,.13);color:#c8b8ff;border-color:rgba(155,123,255,.3)}
+
+/* ============ 精选卡片 ============ */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:15px}
+.card{
+  border:1px solid var(--line-soft);border-radius:12px;overflow:hidden;background:var(--panel-2);
+  display:flex;flex-direction:column;transition:.2s;
+}
+.card:hover{transform:translateY(-3px);border-color:rgba(255,91,61,.45);box-shadow:0 12px 26px rgba(0,0,0,.4)}
+.card-thumb{position:relative;aspect-ratio:4/3;overflow:hidden;background:#0b1118}
+.card-thumb img{width:100%;height:100%;object-fit:cover;transition:.35s}
+.card:hover .card-thumb img{transform:scale(1.05)}
+.card-thumb .mini-tag{
+  position:absolute;left:9px;top:9px;font-size:11px;font-weight:800;padding:2px 8px;border-radius:6px;
+  background:rgba(13,17,23,.86);color:var(--brand-2);border:1px solid rgba(255,176,58,.4);backdrop-filter:blur(4px);
+}
+.card-thumb .hot{
+  position:absolute;right:9px;bottom:9px;font-size:11px;font-weight:800;padding:2px 8px;border-radius:6px;
+  background:rgba(255,91,61,.9);color:#fff;
+}
+.card-body{padding:12px 13px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-body h3{font-size:14.5px;line-height:1.45}
+.card-body h3:hover{color:var(--brand-2)}
+.card-body p{font-size:12.5px;color:var(--text-2);line-height:1.65;flex:1}
+.card-tags{display:flex;flex-wrap:wrap;gap:5px}
+.card-tags span{font-size:11px;font-weight:700;color:var(--text-3);background:rgba(255,255,255,.05);padding:2px 7px;border-radius:5px}
+.card-meta{display:flex;align-items:center;justify-content:space-between;font-size:11.5px;color:var(--text-3);border-top:1px dashed var(--line);padding-top:8px;font-weight:700}
+.card-meta .score{color:var(--brand-2);font-weight:900}
+
+/* ============ 更新流 ============ */
+.feed{display:flex;flex-direction:column}
+.feed li{
+  display:grid;grid-template-columns:66px minmax(0,1fr) auto;gap:13px;align-items:center;
+  padding:11px 0;border-bottom:1px dashed var(--line-soft);
+}
+.feed li:last-child{border-bottom:none;padding-bottom:0}
+.feed time{font-size:11.5px;font-weight:800;color:var(--cyan);font-variant-numeric:tabular-nums;letter-spacing:.3px}
+.feed .ft{min-width:0}
+.feed .ft strong{display:block;font-size:14px;font-weight:800;line-height:1.5}
+.feed .ft span{font-size:12.5px;color:var(--text-3)}
+.feed .fk{
+  font-size:11px;font-weight:800;padding:2px 8px;border-radius:999px;white-space:nowrap;
+  background:rgba(79,209,139,.13);color:#8ef0b8;border:1px solid rgba(79,209,139,.28);
+}
+.feed .fk.warn{background:rgba(255,176,58,.13);color:#ffd08a;border-color:rgba(255,176,58,.3)}
+.feed .fk.new{background:rgba(255,91,61,.14);color:#ffb2a1;border-color:rgba(255,91,61,.32)}
+
+/* ============ 分类入口 ============ */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:11px}
+.cat{
+  display:block;padding:13px 14px;border-radius:11px;border:1px solid var(--line-soft);
+  background:linear-gradient(150deg,rgba(255,255,255,.045),rgba(255,255,255,.012));transition:.2s;
+}
+.cat:hover{border-color:rgba(255,176,58,.5);background:rgba(255,176,58,.07)}
+.cat b{display:block;font-size:14px;font-weight:900;margin-bottom:3px}
+.cat span{font-size:11.5px;color:var(--text-3);line-height:1.5}
+
+/* ============ 深度解析 ============ */
+.deep{background:linear-gradient(170deg,#1a2432,#151d28);border:1px solid var(--line)}
+.deep h3{font-size:16px;margin:22px 0 9px;color:#fff;display:flex;align-items:center;gap:8px}
+.deep h3::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--brand);transform:rotate(45deg);flex:0 0 auto}
+.deep h3:first-of-type{margin-top:4px}
+.deep p{font-size:14.5px;color:var(--text-2);margin-bottom:11px}
+.deep strong{color:#fff}
+.deep ul{margin:0 0 12px;display:flex;flex-direction:column;gap:7px}
+.deep ul li{position:relative;padding-left:19px;font-size:14px;color:var(--text-2)}
+.deep ul li::before{content:"";position:absolute;left:4px;top:10px;width:6px;height:6px;border-radius:50%;background:var(--brand-2)}
+.deep ul li b{color:#fff}
+.quote{
+  border-left:3px solid var(--brand);background:rgba(255,91,61,.08);border-radius:0 10px 10px 0;
+  padding:12px 15px;font-size:13.5px;color:#ffd9cf;margin:12px 0;
+}
+.quote cite{display:block;margin-top:5px;font-style:normal;font-size:12px;color:var(--text-3);font-weight:700}
+
+/* ============ 体验指南 ============ */
+.paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:13px}
+.path{
+  border:1px solid var(--line-soft);border-radius:12px;padding:15px;background:var(--panel-2);
+  display:flex;flex-direction:column;gap:8px;
+}
+.path .num{
+  width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-size:13px;font-weight:900;
+  background:linear-gradient(140deg,var(--brand),var(--brand-2));color:#160a05;flex:0 0 auto;
+}
+.path h3{font-size:14px}
+.path p{font-size:12.5px;color:var(--text-2)}
+.path .k{font-size:11.5px;color:var(--cyan);font-weight:800}
+
+/* ============ FAQ ============ */
+.faq details{
+  border:1px solid var(--line-soft);border-radius:10px;background:var(--panel-2);
+  padding:0 15px;margin-bottom:9px;transition:.2s;
+}
+.faq details[open]{border-color:rgba(255,176,58,.45);background:rgba(255,176,58,.055)}
+.faq summary{
+  list-style:none;cursor:pointer;padding:12px 26px 12px 0;font-size:14px;font-weight:800;
+  position:relative;line-height:1.6;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:2px;top:50%;transform:translateY(-50%);
+  font-size:19px;font-weight:400;color:var(--brand-2);transition:.2s;
+}
+.faq details[open] summary::after{content:"−"}
+.faq .ans{padding:0 0 13px;font-size:13.5px;color:var(--text-2);border-top:1px dashed var(--line);padding-top:11px}
+
+/* ============ 评论 ============ */
+.cmt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:12px}
+.cmt{
+  border:1px solid var(--line-soft);border-radius:11px;padding:12px 14px;background:rgba(255,255,255,.028);
+  display:flex;flex-direction:column;gap:7px;
+}
+.cmt-hd{display:flex;align-items:center;gap:8px}
+.ava{
+  width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-size:11px;font-weight:900;color:#0d1117;flex:0 0 auto;
+}
+.cmt-hd b{font-size:12.5px;font-weight:800}
+.cmt-hd time{font-size:11px;color:var(--text-3);margin-left:auto;font-weight:700}
+.cmt p{font-size:12.8px;color:var(--text-2);line-height:1.68}
+.cmt .ref{font-size:11.5px;color:var(--cyan);font-weight:800}
+
+/* ============ 资讯 ============ */
+.news-list{display:flex;flex-direction:column;gap:12px}
+.news-item{display:grid;grid-template-columns:132px minmax(0,1fr);gap:14px;align-items:center;border-bottom:1px dashed var(--line-soft);padding-bottom:12px}
+.news-item:last-child{border-bottom:none;padding-bottom:0}
+.news-item img{width:132px;height:82px;object-fit:cover;border-radius:9px;border:1px solid var(--line-soft)}
+.news-item h3{font-size:14px;margin-bottom:4px}
+.news-item h3:hover{color:var(--brand-2)}
+.news-item p{font-size:12.5px;color:var(--text-3);line-height:1.6}
+.news-item time{font-size:11.5px;color:var(--brand-2);font-weight:800;display:inline-block;margin-bottom:3px}
+
+/* ============ 相关推荐 标签索引 ============ */
+.rel-tags{display:flex;flex-wrap:wrap;gap:9px}
+.rel-tags a{
+  display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;
+  border:1px solid var(--line);background:rgba(255,255,255,.035);font-size:13px;font-weight:700;color:var(--text-2);transition:.18s;
+}
+.rel-tags a:hover{color:#fff;border-color:var(--brand-2);background:rgba(255,176,58,.1)}
+.rel-tags a i{font-style:normal;font-size:11px;color:var(--text-3)}
+
+/* ============ 榜单 ============ */
+.rank li{display:grid;grid-template-columns:30px minmax(0,1fr) auto;gap:11px;align-items:center;padding:9px 0;border-bottom:1px dashed var(--line-soft)}
+.rank li:last-child{border-bottom:none}
+.rank .no{font-size:14px;font-weight:900;color:var(--text-3);font-variant-numeric:tabular-nums;text-align:center}
+.rank li:nth-child(1) .no{color:var(--brand)}
+.rank li:nth-child(2) .no{color:var(--brand-2)}
+.rank li:nth-child(3) .no{color:var(--cyan)}
+.rank .rt b{display:block;font-size:13.5px;font-weight:800}
+.rank .rt span{font-size:11.5px;color:var(--text-3)}
+.rank .rv{font-size:12px;font-weight:900;color:var(--brand-2);font-variant-numeric:tabular-nums}
+
+/* ============ 侧栏面板 ============ */
+.side-panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 17px}
+.side-panel h3{font-size:14px;letter-spacing:.5px;display:flex;align-items:center;gap:7px;margin-bottom:12px;padding-bottom:9px;border-bottom:1px solid var(--line-soft)}
+.side-panel h3::before{content:"";width:4px;height:14px;border-radius:2px;background:var(--brand-2)}
+.side-feed li{padding:8px 0;border-bottom:1px dashed var(--line-soft);font-size:12.5px;display:flex;gap:8px}
+.side-feed li:last-child{border-bottom:none;padding-bottom:0}
+.side-feed time{color:var(--cyan);font-weight:800;flex:0 0 auto;font-variant-numeric:tabular-nums}
+.side-feed span{color:var(--text-2);line-height:1.55}
+.side-feed b{color:#fff}
+.side-tags{display:flex;flex-wrap:wrap;gap:6px}
+.side-tags a{font-size:12px;font-weight:700;padding:3px 9px;border-radius:6px;background:rgba(255,255,255,.055);color:var(--text-2)}
+.side-tags a:hover{background:rgba(255,91,61,.16);color:#ffd0c4}
+.side-cta{
+  background:linear-gradient(150deg,rgba(255,91,61,.18),rgba(255,176,58,.08));
+  border:1px solid rgba(255,91,61,.35);
+}
+.side-cta p{font-size:12.5px;color:#ffd9cf;margin-bottom:11px;line-height:1.65}
+.side-cta .btn{height:36px;padding:0 14px;font-size:12.5px;border-radius:9px}
+
+/* ============ 页尾 ============ */
+.site-foot{margin-top:34px;border-top:1px solid var(--line);background:#0a0e14}
+.foot-inner{max-width:var(--maxw);margin:0 auto;padding:34px 20px 22px;display:grid;grid-template-columns:minmax(0,1.5fr) repeat(3,minmax(0,1fr));gap:26px}
+.foot-brand .brand{margin-bottom:12px}
+.foot-brand p{font-size:12.8px;color:var(--text-3);line-height:1.75;max-width:320px}
+.foot-col h4{font-size:12.5px;letter-spacing:1.5px;color:var(--text-3);margin-bottom:11px;font-weight:800}
+.foot-col ul{display:flex;flex-direction:column;gap:7px}
+.foot-col a{font-size:13px;color:var(--text-2)}
+.foot-col a:hover{color:var(--brand-2)}
+.foot-bar{border-top:1px solid var(--line-soft);padding:14px 20px;max-width:var(--maxw);margin:0 auto;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--text-3)}
+.foot-bar p{line-height:1.7}
+
+.no-result{
+  display:none;padding:22px;text-align:center;border:1px dashed var(--line);border-radius:12px;
+  color:var(--text-3);font-size:13.5px;
+}
+.no-result.on{display:block}
+
+/* ============ 响应式 ============ */
+@media(max-width:1120px){
+  .layout{grid-template-columns:170px minmax(0,1fr);}
+  .side-col{grid-column:1/-1;position:static;display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:16px}
+}
+@media(max-width:1024px){
+  .hero{grid-template-columns:1fr;padding:28px 24px}
+  .hero-visual{flex-direction:row;flex-wrap:wrap}
+  .vs-card{flex:1 1 220px}
+  .wave{display:none}
+}
+@media(max-width:860px){
+  .layout{grid-template-columns:1fr;gap:18px}
+  .chan{position:static}
+  .chan ul{flex-direction:row;flex-wrap:wrap;overflow-x:auto;gap:5px}
+  .chan ul li{flex:0 0 auto}
+  .chan a{white-space:nowrap}
+  .chan h2{display:none}
+  .chan-foot{display:none}
+  .head-tools .search-wrap input{width:130px}
+  .head-tools .search-wrap input:focus{width:150px}
+  .main-nav{order:3;flex-basis:100%;padding-bottom:6px}
+  .head-inner{height:auto;flex-wrap:wrap;padding:10px 16px;gap:10px}
+  .site-head{position:sticky}
+  :root{--head-h:112px}
+}
+@media(max-width:740px){
+  body{font-size:14.5px}
+  .wrap{padding:0 14px}
+  .block{padding:17px 16px}
+  .hero{padding:22px 17px;border-radius:16px}
+  .hero-stats{gap:16px}
+  .hero-stats b{font-size:18px}
+  .card-grid{grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:11px}
+  .card-body p{font-size:12px}
+  .news-item{grid-template-columns:100px minmax(0,1fr);gap:11px}
+  .news-item img{width:100px;height:66px}
+  .foot-inner{grid-template-columns:1fr 1fr;gap:20px;padding:26px 16px 18px}
+  .foot-brand{grid-column:1/-1}
+  .feed li{grid-template-columns:58px minmax(0,1fr);}
+  .feed .fk{display:none}
+  .btn-live{display:none}
+  .annbar{font-size:12px;padding:0 12px;gap:9px}
+  .annbar a{display:none}
+  .search-wrap input{width:112px}
+}
+@media(max-width:420px){
+  .card-grid{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:1fr 1fr}
+  .cmt-grid{grid-template-columns:1fr}
+  .paths{grid-template-columns:1fr}
+  .foot-inner{grid-template-columns:1fr}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="annbar" role="region" aria-label="站内更新公告">
+  <span class="dot" aria-hidden="true"></span>
+  <span class="ann-tag">今日更新</span>
+  <span class="ann-text">11 月 25 日新增「男生78怒怼桃子」第 6 局完整实录 + 桃子反击名场面 4 条切片，复盘页同步上线</span>
+  <a href="/#sec-feed">查看动态</a>
+</div>
+
+<!-- 页头 -->
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="/#top" aria-label="男生78怒怼桃子 首页">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#1a0d06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 6h7a3 3 0 0 1 3 3v9"/>
+          <path d="M20 6h-3a3 3 0 0 0-3 3"/>
+          <path d="M4 18h5"/>
+          <circle cx="19" cy="17" r="2.4" fill="#1a0d06" stroke="none"/>
+          <circle cx="7" cy="17" r="2.4" fill="#1a0d06" stroke="none"/>
+        </svg>
+      </span>
+      <span>
+        <span class="brand-name">男生78怒怼<em>桃子</em></span>
+        <span class="brand-sub">VS · REPLAY · ARCHIVE</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/#sec-overview" class="on">对决综述</a>
+      <a href="/#sec-picks">名场面</a>
+      <a href="/#sec-feed">实时动态</a>
+      <a href="/#sec-cats">分类</a>
+      <a href="/#sec-deep">逐局复盘</a>
+      <a href="/#sec-guide">观赛指南</a>
+      <a href="/#sec-faq">问答</a>
+      <a href="/#sec-rank">战力榜</a>
+    </nav>
+
+    <div class="head-tools">
+      <div class="search-wrap">
+        <input id="siteSearch" type="search" placeholder="搜索名场面 / 局数" aria-label="站内搜索名场面或局数">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      </div>
+      <button class="btn-live" type="button" aria-label="今日 21:00 直播预约"><span aria-hidden="true"></span>直播预约</button>
+    </div>
+  </div>
+</header>
+
+<div id="top"></div>
+
+<div class="wrap">
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div>
+      <span class="hero-badge">双人对线实录 · 累计 6 局 · 更新至 11 月 25 日</span>
+      <h1 id="hero-title">男生78怒怼桃子</h1>
+      <p class="hero-lead">
+        一场从游戏内语音打到复盘直播间的<b>高强度互怼</b>——男生78 主打节奏压迫与反问拆解，桃子靠冷幽默和反手偷点翻盘。
+        这里收录每一局的原片、可反复看的名场面切片、逐句拆解的<b>话术复盘</b>，以及两人各自直播间的实时动向。
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-main" href="/#sec-picks">进入名场面合集</a>
+        <a class="btn btn-ghost" href="/#sec-deep">看逐局复盘</a>
+        <a class="btn btn-ghost" href="/#sec-feed">今日动态</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>6<i>局</i></b>已完整收录</div>
+        <div><b>24<i>条</i></b>高能切片</div>
+        <div><b>3.8<i>亿</i></b>累计播放</div>
+        <div><b>21:00</b>今晚连麦复盘</div>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="vs-card">
+        <div class="vs-avatar a">78</div>
+        <div class="vs-info">
+          <strong>男生78</strong>
+          <span>节奏型 · 反问压制 · 胜率 58%</span>
+        </div>
+        <div class="vs-score">3</div>
+      </div>
+      <div class="vs-mid">— VS —</div>
+      <div class="vs-card">
+        <div class="vs-avatar b">桃</div>
+        <div class="vs-info">
+          <strong>桃子</strong>
+          <span>反打型 · 冷幽默 · 胜率 42%</span>
+        </div>
+        <div class="vs-score">3</div>
+      </div>
+      <div class="wave">
+        <i style="height:14px"></i><i style="height:26px"></i><i style="height:38px"></i><i style="height:20px"></i>
+        <i style="height:32px"></i><i style="height:44px"></i><i style="height:18px"></i><i style="height:28px"></i>
+        <i style="height:36px"></i><i style="height:12px"></i><i style="height:24px"></i><i style="height:40px"></i>
+        <i style="height:30px"></i><i style="height:16px"></i><i style="height:34px"></i><i style="height:22px"></i>
+        <i style="height:42px"></i><i style="height:20px"></i><i style="height:28px"></i><i style="height:14px"></i>
+        <i style="height:36px"></i><i style="height:24px"></i><i style="height:18px"></i><i style="height:30px"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- 三栏布局 -->
+  <div class="layout">
+
+    <!-- 左频道栏 -->
+    <aside class="chan" aria-label="频道索引">
+      <h2>频道索引</h2>
+      <ul>
+        <li><a href="/#sec-overview">对决综述<span>01</span></a></li>
+        <li><a href="/#sec-picks">名场面合集<span>12</span></a></li>
+        <li><a href="/#sec-feed">实时动态<span>10</span></a></li>
+        <li><a href="/#sec-cats">分类入口<span>08</span></a></li>
+        <li><a href="/#sec-deep">逐局复盘<span>06</span></a></li>
+        <li><a href="/#sec-guide">观赛指南<span>04</span></a></li>
+        <li><a href="/#sec-faq">常见问答<span>06</span></a></li>
+        <li><a href="/#sec-comments">观众评论<span>16</span></a></li>
+        <li><a href="/#sec-news">相关资讯<span>06</span></a></li>
+        <li><a href="/#sec-rel">延伸方向<span>08</span></a></li>
+        <li><a href="/#sec-rank">战力榜单<span>08</span></a></li>
+      </ul>
+      <div class="chan-foot">
+        <b>今晚 21:00 连麦</b>
+        桃子将首次复盘第 6 局，男生78 在旁听席实时插话。
+      </div>
+    </aside>
+
+    <!-- 主列 -->
+    <main class="main-col">
+
+      <!-- 1 主题领域概览 -->
+      <section class="block overview" id="sec-overview" aria-labelledby="h-overview">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-overview">这场互怼到底是什么</h2>
+            <p>从游戏内语音到直播复盘，一条完整的内容线</p>
+          </div>
+        </div>
+        <p>
+          「男生78怒怼桃子」并不是一次性的口角，而是一条延续了两个多月的<b>双人对线内容线</b>。起点是两人在多人竞技游戏里的随机匹配——男生78 用一套连环反问把桃子堵在语音里三十秒说不出话，那段原片在 9 月底被剪成 47 秒切片，两天内冲上热门。此后两人约好固定对局，逐渐形成「一局游戏 + 一段赛后连麦」的双段式内容结构。
+        </p>
+        <p>
+          内容方向大致分四类：<span class="hl">原片实录</span>看完整对局与语音原声，适合想看清前因后果的观众；<span class="hl">高能切片</span>是 30 秒到 2 分钟的短剪辑，集中在翻盘、破防、反杀几个节点；<span class="hl">话术复盘</span>逐句拆解两人怎么接话、怎么转移话题、怎么在劣势里找台阶；<span class="hl">直播间动态</span>则记录两人各自开播时的回应和二次玩梗。
+        </p>
+        <p>
+          当前最值得关注的是第 6 局。这一局桃子在前中期一度落后 11 分，靠一次<b>假装认输的语音诱导</b>让男生78 提前庆祝，随后连追三波完成反超。赛后连麦里男生78 罕见沉默了两分半，这段沉默被单独剪成切片，成为整条内容线里播放量第二高的条目。想看完整的攻防逻辑，建议从这一局的原片入手，再回头补第 3 局的经典反问连发。
+        </p>
+        <div class="ov-tags">
+          <span class="tag">原片实录</span>
+          <span class="tag b">高能切片</span>
+          <span class="tag v">话术复盘</span>
+          <span class="tag">直播间连麦</span>
+          <span class="tag b">第 6 局反超</span>
+          <span class="tag v">反问连发</span>
+        </div>
+      </section>
+
+      <!-- 2 精选内容推荐 -->
+      <section class="block" id="sec-picks" aria-labelledby="h-picks">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-picks">名场面合集</h2>
+            <p>12 条可直接点开的具体条目，按看点分类</p>
+          </div>
+          <a class="more" href="/#sec-rank">按战力排序 →</a>
+        </div>
+        <p class="sec-lead">每条都标注了局数、时长和关键节点，方便按兴趣挑。</p>
+
+        <div class="card-grid" id="pickGrid">
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/nan78-taozi-j6/400/300" width="400" height="300" loading="lazy" alt="第6局桃子假装认输反超对局画面">
+              <span class="mini-tag">第 6 局</span>
+              <span class="hot">热度 98</span>
+            </div>
+            <div class="card-body">
+              <h3>假装认输反超：第 6 局完整实录</h3>
+              <p>桃子在中场落后 11 分时用一句「行吧你赢了」诱导对手提前庆祝，随后三波连追完成翻盘，赛后连麦沉默两分半。</p>
+              <div class="card-tags"><span>翻盘</span><span>语音诱导</span><span>连麦</span></div>
+              <div class="card-meta"><span>时长 42:18</span><span class="score">9.6</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/nan78-fanwen-j3/400/300" width="400" height="300" loading="lazy" alt="第3局男生78连环反问压制画面">
+              <span class="mini-tag">第 3 局</span>
+              <span class="hot">热度 95</span>
+            </div>
+            <div class="card-body">
+              <h3>五连反问：男生78 的节奏压制范本</h3>
+              <p>连续五个递进式反问不给对方插话机会，是整条内容线里被模仿最多的一段，也是理解男生78 打法的最佳入口。</p>
+              <div class="card-tags"><span>反问连发</span><span>节奏</span><span>经典</span></div>
+              <div class="card-meta"><span>时长 3:12</span><span class="score">9.4</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/taozi-chenmo-j6/400/300" width="400" height="300" loading="lazy" alt="第6局赛后连麦沉默两分半画面">
+              <span class="mini-tag">切片</span>
+              <span class="hot">热度 93</span>
+            </div>
+            <div class="card-body">
+              <h3>沉默两分半：赛后连麦最安静的一次</h3>
+              <p>男生78 在复盘时连续三次想开口又停住，桃子只回了一句「你先说」，这段留白反而成了播放量第二高的条目。</p>
+              <div class="card-tags"><span>赛后连麦</span><span>沉默</span><span>名场面</span></div>
+              <div class="card-meta"><span>时长 2:34</span><span class="score">9.3</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/taozi-fanchao-j5/400/300" width="400" height="300" loading="lazy" alt="第5局桃子冷幽默反击画面">
+              <span class="mini-tag">第 5 局</span>
+              <span class="hot">热度 91</span>
+            </div>
+            <div class="card-body">
+              <h3>「你急什么」：桃子一句冷幽默破防</h3>
+              <p>面对连续追问，桃子只回了四个字就把节奏拉回自己手里，后续五分钟男生78 明显提速失误增多。</p>
+              <div class="card-tags"><span>冷幽默</span><span>破防</span><span>反打</span></div>
+              <div class="card-meta"><span>时长 1:48</span><span class="score">9.1</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/nan78-yuanyin-j1/400/300" width="400" height="300" loading="lazy" alt="第1局随机匹配语音原片画面">
+              <span class="mini-tag">第 1 局</span>
+              <span class="hot">热度 89</span>
+            </div>
+            <div class="card-body">
+              <h3>起点：47 秒随机匹配原片</h3>
+              <p>整条内容线的源头。男生78 用连环反问把桃子堵在语音里三十秒，这段原片至今仍是理解双方立场的必看起点。</p>
+              <div class="card-tags"><span>起源</span><span>随机匹配</span><span>原片</span></div>
+              <div class="card-meta"><span>时长 0:47</span><span class="score">8.9</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/taozi-zhuafan-j4/400/300" width="400" height="300" loading="lazy" alt="第4局桃子抓反向翻盘画面">
+              <span class="mini-tag">第 4 局</span>
+              <span class="hot">热度 87</span>
+            </div>
+            <div class="card-body">
+              <h3>抓反向：第 4 局桃子首次正面赢</h3>
+              <p>桃子第一次在完整对局里赢下男生78，靠的是把对方最擅长的反问原样抛回去，形成镜像式反打。</p>
+              <div class="card-tags"><span>镜像反打</span><span>首胜</span><span>对局</span></div>
+              <div class="card-meta"><span>时长 38:52</span><span class="score">8.8</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/nan78-yusubiao-j2/400/300" width="400" height="300" loading="lazy" alt="第2局男生78语速飙升片段画面">
+              <span class="mini-tag">第 2 局</span>
+              <span class="hot">热度 85</span>
+            </div>
+            <div class="card-body">
+              <h3>语速飙到每秒 6 字：第 2 局失控现场</h3>
+              <p>男生78 在追分阶段语速明显失控，反而给了桃子三次插话空档，是研究「节奏型选手怎么崩」的典型样本。</p>
+              <div class="card-tags"><span>语速</span><span>失控</span><span>节奏崩</span></div>
+              <div class="card-meta"><span>时长 5:21</span><span class="score">8.6</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/taozi-fupan-j6/400/300" width="400" height="300" loading="lazy" alt="桃子第6局复盘直播画面">
+              <span class="mini-tag">直播</span>
+              <span class="hot">热度 84</span>
+            </div>
+            <div class="card-body">
+              <h3>桃子的第 6 局自述式复盘</h3>
+              <p>桃子在自己直播间逐段回放并解释每个决策，包括那句假装认输到底是不是提前设计好的，首次正面回应。</p>
+              <div class="card-tags"><span>复盘直播</span><span>自述</span><span>决策</span></div>
+              <div class="card-meta"><span>时长 26:40</span><span class="score">8.7</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/nan78-huashu-j3/400/300" width="400" height="300" loading="lazy" alt="男生78话术拆解课堂画面">
+              <span class="mini-tag">复盘</span>
+              <span class="hot">热度 82</span>
+            </div>
+            <div class="card-body">
+              <h3>反问三件套：男生78 的话术拆解课</h3>
+              <p>把第 3 局的五个反问拆成「先确认、再抬高、后收口」三步，附上他自己在直播间的讲解片段。</p>
+              <div class="card-tags"><span>话术</span><span>拆解</span><span>教学向</span></div>
+              <div class="card-meta"><span>时长 11:05</span><span class="score">8.5</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/taozi-fanwen-j5/400/300" width="400" height="300" loading="lazy" alt="第5局桃子反问回敬画面">
+              <span class="mini-tag">第 5 局</span>
+              <span class="hot">热度 81</span>
+            </div>
+            <div class="card-body">
+              <h3>把问题还回去：桃子的第一次反问</h3>
+              <p>桃子第一次在对局里主动使用反问，措辞比男生78 更短更冷，效果却更直接，被观众称为「降维版反击」。</p>
+              <div class="card-tags"><span>反问回敬</span><span>短句</span><span>反击</span></div>
+              <div class="card-meta"><span>时长 1:22</span><span class="score">8.4</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/nan78-lianmai-j4/400/300" width="400" height="300" loading="lazy" alt="第4局赛后连麦握手言和画面">
+              <span class="mini-tag">连麦</span>
+              <span class="hot">热度 79</span>
+            </div>
+            <div class="card-body">
+              <h3>第 4 局赛后：第一次互相认可</h3>
+              <p>两人在连麦里第一次认真评价对方的打法，男生78 承认桃子「抓反向抓得很准」，是关系转折点。</p>
+              <div class="card-tags"><span>关系转折</span><span>互评</span><span>连麦</span></div>
+              <div class="card-meta"><span>时长 8:16</span><span class="score">8.2</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-thumb">
+              <img src="https://picsum.photos/seed/taozi-heji-j6/400/300" width="400" height="300" loading="lazy" alt="两人第6局精彩片段合集封面">
+              <span class="mini-tag">合集</span>
+              <span class="hot">热度 78</span>
+            </div>
+            <div class="card-body">
+              <h3>六局精华：一次看完双方攻防变化</h3>
+              <p>把六局里最有代表性的十二个节点按时间串起来，适合已经看过原片、想看整体走势的观众。</p>
+              <div class="card-tags"><span>合集</span><span>走势</span><span>攻防</span></div>
+              <div class="card-meta"><span>时长 18:30</span><span class="score">8.3</span></div>
+            </div>
+          </article>
+        </div>
+        <div class="no-result" id="noResult">没有找到匹配的名场面，换个关键词试试，比如「第 6 局」「反问」「沉默」。</div>
+      </section>
+
+      <!-- 3 最新动态 -->
+      <section class="block" id="sec-feed" aria-labelledby="h-feed">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-feed">实时动态</h2>
+            <p>过去 10 天内的具体更新与直播安排</p>
+          </div>
+        </div>
+        <ul class="feed">
+          <li>
+            <time datetime="2026-11-25">今天 09:30</time>
+            <div class="ft"><strong>第 6 局完整实录上线</strong><span>42 分 18 秒，含赛后连麦全段，未做删减。</span></div>
+            <span class="fk new">新上线</span>
+          </li>
+          <li>
+            <time datetime="2026-11-25">今天 08:10</time>
+            <div class="ft"><strong>桃子发布第 6 局决策自述</strong><span>逐段解释三波反超的取舍，回应「假装认输」是否为设计。</span></div>
+            <span class="fk">直播回放</span>
+          </li>
+          <li>
+            <time datetime="2026-11-24">昨天 21:10</time>
+            <div class="ft"><strong>男生78 直播间连麦回应沉默片段</strong><span>承认当时「确实没想好怎么接」，全程约 14 分钟。</span></div>
+            <span class="fk warn">连麦</span>
+          </li>
+          <li>
+            <time datetime="2026-11-23">11 月 23 日</time>
+            <div class="ft"><strong>「沉默两分半」切片播放破 8000 万</strong><span>成为整条内容线播放量第二高的单条切片。</span></div>
+            <span class="fk">数据</span>
+          </li>
+          <li>
+            <time datetime="2026-11-22">11 月 22 日</time>
+            <div class="ft"><strong>第 7 局预约开启</strong><span>暂定 12 月 2 日开打，规则改为三局两胜制。</span></div>
+            <span class="fk warn">预告</span>
+          </li>
+          <li>
+            <time datetime="2026-11-20">11 月 20 日</time>
+            <div class="ft"><strong>桃子新增「反问回敬」教学切片</strong><span>拆解第 5 局那句「你急什么」的停顿位置。</span></div>
+            <span class="fk">切片</span>
+          </li>
+          <li>
+            <time datetime="2026-11-18">11 月 18 日</time>
+            <div class="ft"><strong>男生78 发布话术拆解课第二期</strong><span>主题为「反问三件套」，含他自己复盘时的补充说明。</span></div>
+            <span class="fk">复盘</span>
+          </li>
+          <li>
+            <time datetime="2026-11-16">11 月 16 日</time>
+            <div class="ft"><strong>第 4 局赛后互评片段重新剪辑</strong><span>补入此前未公开的 3 分钟握手对话。</span></div>
+            <span class="fk">补档</span>
+          </li>
+          <li>
+            <time datetime="2026-11-12">11 月 12 日</time>
+            <div class="ft"><strong>第 1 局 47 秒原片重新上架</strong><span>清理音轨后重新发布，作为新观众入口。</span></div>
+            <span class="fk">补档</span>
+          </li>
+          <li>
+            <time datetime="2026-11-09">11 月 9 日</time>
+            <div class="ft"><strong>两人联合直播「复盘之夜」第一场</strong><span>同时在线峰值 46 万，主要讨论第 2、3 局。</span></div>
+            <span class="fk">直播</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="block" id="sec-cats" aria-labelledby="h-cats">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-cats">分类入口</h2>
+            <p>按内容形态与看点划分，共 8 个方向</p>
+          </div>
+        </div>
+        <div class="cat-grid">
+          <a class="cat" href="/#sec-picks"><b>原片实录</b><span>完整对局 + 语音原声，看清前因后果</span></a>
+          <a class="cat" href="/#sec-picks"><b>高能切片</b><span>30 秒到 2 分钟，集中在翻盘与破防</span></a>
+          <a class="cat" href="/#sec-deep"><b>话术复盘</b><span>逐句拆解接话、转移与找台阶</span></a>
+          <a class="cat" href="/#sec-feed"><b>赛后连麦</b><span>两人直播间里的回应与二次玩梗</span></a>
+          <a class="cat" href="/#sec-rank"><b>翻盘局</b><span>落后两位数之后的追分过程</span></a>
+          <a class="cat" href="/#sec-deep"><b>节奏压制</b><span>反问、提速与插话时机的分析</span></a>
+          <a class="cat" href="/#sec-comments"><b>观众二创</b><span>观众剪的镜像对照与配音版</span></a>
+          <a class="cat" href="/#sec-guide"><b>新观众入门</b><span>按顺序补课的推荐路径</span></a>
+        </div>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="block deep" id="sec-deep" aria-labelledby="h-deep">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-deep">逐局复盘：两种打法的碰撞逻辑</h2>
+            <p>从第 1 局到第 6 局，攻防重心如何一步步转移</p>
+          </div>
+        </div>
+
+        <h3>男生78 的节奏压迫：先确认、再抬高、后收口</h3>
+        <p>
+          男生78 的核心打法可以拆成一套三段式结构。<strong>第一段是「先确认」</strong>——他会把对方刚说的话复述一遍，看似在确认理解，实际上是把话题钉死在对方身上，让对方无法转移。<strong>第二段是「再抬高」</strong>——把对方的观点推向一个更极端的版本，逼对方要么承认、要么自我否定。<strong>第三段是「后收口」</strong>——用一个短句结束，不给反驳空间。
+        </p>
+        <ul>
+          <li><b>先确认：</b>「你的意思是说，刚才那一波你觉得是我先动的手？」</li>
+          <li><b>再抬高：</b>「那按这个逻辑，是不是以后每次我先开口都算我挑事？」</li>
+          <li><b>后收口：</b>「行，那你继续。」</li>
+        </ul>
+        <p>
+          这套结构在第 3 局达到最强效果，五连反问让桃子整整四十秒没有完整句子。但它有一个明显代价：<b>语速必须持续维持在高位</b>。第 2 局后半段他提速过猛，反而出现三次卡顿，被桃子抓住空档插话，节奏就此断裂。
+        </p>
+
+        <h3>桃子的反打逻辑：用对方的句式还回去</h3>
+        <p>
+          桃子的应对方式不是硬碰硬，而是<strong>镜像式反打</strong>——把男生78 刚用过的句式原样抛回去，只换主语。这种打法在第 4 局第一次奏效，第 5 局的「你急什么」是它的极简版本：四个字，没有反问结构，却直接打断了对方的推进节奏。
+        </p>
+        <p>
+          镜像反打的关键在于<b>停顿位置</b>。桃子通常在对方说到第三句时插入，而不是第一句。第一句就插会被压回去，第三句时对方已经进入惯性输出，反而更容易被打断。这个时机在第 6 局被用到了极致——她在落后 11 分时先假装认输，等男生78 进入「已经赢了」的松弛状态，再在三波连追中连续使用短句回敬。
+        </p>
+        <div class="quote">
+          「你先说。」——第 6 局赛后连麦，桃子对沉默了近一分钟的男生78 说的唯一一句话。
+          <cite>出自第 6 局赛后连麦 02:11 处</cite>
+        </div>
+
+        <h3>六局的攻防重心转移</h3>
+        <p>
+          把六局放在一起看，会发现攻防重心经历了三个阶段。前期（第 1—2 局）是男生78 单方面压制，桃子还在适应节奏；中期（第 3—4 局）双方开始互相借用对方句式，出现明显的镜像结构；后期（第 5—6 局）桃子的短句反打逐渐占据上风，男生78 则开始出现「想太多」的迹象——第 6 局的沉默两分半就是典型症状。
+        </p>
+        <ul>
+          <li><b>第 1 局：</b>单方面压制，47 秒原片定下基调。</li>
+          <li><b>第 2 局：</b>男生78 提速失控，桃子首次找到插话空档。</li>
+          <li><b>第 3 局：</b>五连反问，节奏压迫的教科书样本。</li>
+          <li><b>第 4 局：</b>桃子首次正面赢，镜像反打成型。</li>
+          <li><b>第 5 局：</b>「你急什么」四字破防，短句流确立。</li>
+          <li><b>第 6 局：</b>假装认输 + 三波反超，攻防彻底反转。</li>
+        </ul>
+
+        <h3>为什么第 6 局是分水岭</h3>
+        <p>
+          第 6 局之前，观众普遍认为男生78 在话术上占优，桃子只是靠运气和冷幽默撑场面。第 6 局之后，这个判断被改写了。<strong>桃子证明了短句反打可以系统性地瓦解节奏压迫</strong>，而男生78 在赛后连麦里的长时间沉默，某种程度上是对这套打法的默认。
+        </p>
+        <p>
+          值得注意的是，第 6 局的翻盘并非纯粹的话术胜利。桃子在中场确实做了两个具体的战术调整：一是把回应长度压缩到五字以内，二是刻意在对方说到第三句时才接话。这两点都可以在第 7 局里继续观察是否会被沿用，也是接下来最值得跟踪的看点。
+        </p>
+      </section>
+
+      <!-- 6 观赛指南 -->
+      <section class="block" id="sec-guide" aria-labelledby="h-guide">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-guide">观赛指南：先看什么，怎么判断值不值得看</h2>
+            <p>四条具体的消费路径，按投入时间排序</p>
+          </div>
+        </div>
+        <div class="paths">
+          <div class="path">
+            <span class="num">1</span>
+            <h3>只看 47 秒原片</h3>
+            <p>时间最紧的选择。看完能理解两人为什么会结下梁子，但看不到后续任何攻防变化。</p>
+            <span class="k">适合：完全没接触过的新观众</span>
+          </div>
+          <div class="path">
+            <span class="num">2</span>
+            <h3>切片三连：第 3 局 + 第 5 局 + 第 6 局</h3>
+            <p>总计约 8 分钟，覆盖节奏压迫、短句破防、翻盘三个阶段，性价比最高的一条路径。</p>
+            <span class="k">适合：想快速抓住核心看点</span>
+          </div>
+          <div class="path">
+            <span class="num">3</span>
+            <h3>第 6 局完整实录 + 赛后连麦</h3>
+            <p>约 50 分钟。能看清翻盘的每一个决策节点，也包括那段沉默两分半的完整上下文。</p>
+            <span class="k">适合：想认真研究打法的人</span>
+          </div>
+          <div class="path">
+            <span class="num">4</span>
+            <h3>六局全补 + 两场复盘直播</h3>
+            <p>完整补课路线，约 4 小时。适合想跟第 7 局同步讨论、需要完整背景的深度观众。</p>
+            <span class="k">适合：准备长期跟进内容线</span>
+          </div>
+        </div>
+        <p style="margin-top:15px;font-size:13.5px;color:var(--text-2)">
+          判断一条切片值不值得点开，可以看三个信号：<b>是否标注了具体局数</b>（没标的通常是二次剪辑，信息密度低）、<b>时长是否在 3 分钟以内</b>（超过的多半含大量铺垫）、<b>是否带赛后连麦片段</b>（连麦往往比游戏内更精彩）。同类条目之间比较时，优先看有明确时间戳的版本，便于定位关键节点。
+        </p>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="block faq" id="sec-faq" aria-labelledby="h-faq">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-faq">常见问答</h2>
+            <p>新观众最常问的六个问题</p>
+          </div>
+        </div>
+
+        <details>
+          <summary>第一次接触，从哪个条目开始看比较好？</summary>
+          <div class="ans">建议先看第 1 局的 47 秒原片，理解两人的起点矛盾，再跳到第 3 局的五连反问看男生78 的巅峰状态，最后看第 6 局完整实录。这样能完整感受到攻防重心的转移，不会因为直接看第 6 局而错过前面的铺垫。</div>
+        </details>
+
+        <details>
+          <summary>「反问连发」和「短句破防」有什么区别？</summary>
+          <div class="ans">反问连发是男生78 的打法，特点是句子长、递进快、不给插话空间，靠持续输出压住对方。短句破防是桃子的应对，特点是把回应压缩到五字以内，用停顿和留白打断对方的惯性。前者是进攻结构，后者是打断结构，两者在第 5、6 局形成了正面对撞。</div>
+        </details>
+
+        <details>
+          <summary>第 7 局什么时候打，规则有变化吗？</summary>
+          <div class="ans">暂定 12 月 2 日开打，规则从单局制改为三局两胜制。这个改动对桃子相对有利，因为她的短句反打在多局连续对抗中更容易保持体力，而男生78 的节奏压迫需要持续高强度输出，长赛制下更容易出现第 2 局那种提速失控。</div>
+        </details>
+
+        <details>
+          <summary>第 6 局那句「行吧你赢了」是提前设计好的吗？</summary>
+          <div class="ans">桃子在 11 月 25 日的决策自述里正面回应了这个问题，她的说法是「当时确实想放弃，但看到对面开始庆祝就改主意了」。也就是说，认输的念头是真的，但后续的三波连追是临场决定，不是提前排练的剧本。这一点在赛后连麦里男生78 也承认「没料到」。</div>
+        </details>
+
+        <details>
+          <summary>这类互怼内容一般多久更新一次？</summary>
+          <div class="ans">正片对局大约每 8 到 12 天更新一局，切片和复盘则基本每周都有。11 月的节奏明显加快，从第 4 局到第 6 局只用了 20 天，主要原因是两人开始联合直播「复盘之夜」，需要更密集的内容支撑。12 月改为三局两胜制后，更新频率预计还会提高。</div>
+        </details>
+
+        <details>
+          <summary>为什么很多人说第 4 局是关系转折点？</summary>
+          <div class="ans">第 4 局是桃子第一次在完整对局里赢下男生78，更重要的是赛后连麦里两人第一次认真互评。男生78 承认桃子「抓反向抓得很准」，桃子也承认对方的反问结构「确实难接」。这段 8 分钟的连麦后来被补入 3 分钟此前未公开的握手对话，是理解两人从纯对抗转向半合作的关键。</div>
+        </details>
+      </section>
+
+      <!-- 8 用户评论 -->
+      <section class="block" id="sec-comments" aria-labelledby="h-comments">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-comments">观众评论</h2>
+            <p>16 条来自不同观众的现场反馈，含中性评价</p>
+          </div>
+        </div>
+        <div class="cmt-grid">
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#ffb03a,#ff7a3d)">冷</span><b>冷面观察员</b><time>今天 10:12</time></div><p>第 6 局那句假装认输我反复看了五遍，桃子说的时候语气太平了，完全听不出是演的。</p><span class="ref">→ 第 6 局完整实录</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#9b7bff,#3fd0c9)">阿</span><b>阿柚不吃桃</b><time>今天 09:48</time></div><p>男生78 的语速是真的快，但第 2 局后半段明显乱了，卡了三次。节奏型选手最怕自己提速过头。</p><span class="ref">→ 第 2 局失控现场</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#3fd0c9,#4fd18b)">路</span><b>路过的小陈</b><time>今天 09:05</time></div><p>说实话第 5 局之前我一直觉得桃子是陪跑的，那句「你急什么」之后我改观了。</p><span class="ref">→ 第 5 局冷幽默破防</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#ff5b3d,#ffb03a)">复</span><b>复盘控老李</b><time>昨天 23:40</time></div><p>把六局连起来看，攻防重心转移特别明显。前两局一边倒，第三四局开始镜像，第五六局彻底反转。</p><span class="ref">→ 六局精华合集</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#4fd18b,#3fd0c9)">沉</span><b>沉默两分半</b><time>昨天 22:17</time></div><p>那段沉默我一开始以为是剪辑问题，看完整版才知道是真的没说话。反而比说什么都更有信息量。</p><span class="ref">→ 沉默两分半切片</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#ffb03a,#9b7bff)">桃</span><b>桃子味汽水</b><time>昨天 21:33</time></div><p>作为桃子的观众，我觉得她第 6 局自述里有点给自己找补，但整体还是坦诚的。</p><span class="ref">→ 第 6 局决策自述</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#3fd0c9,#ffb03a)">七</span><b>七号看台</b><time>11 月 24 日 20:02</time></div><p>五连反问那段确实经典，但我更想看男生78 怎么应对别人用同样的招数对付他。</p><span class="ref">→ 第 3 局五连反问</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#9b7bff,#ff5b3d)">夜</span><b>夜航船</b><time>11 月 24 日 18:45</time></div><p>第 4 局的握手对话补档之后，整条内容线的观感变了，从纯对线变成了有点较劲的合作。</p><span class="ref">→ 第 4 局赛后互评</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#ff5b3d,#3fd0c9)">剪</span><b>剪辑室小赵</b><time>11 月 23 日 15:20</time></div><p>作为剪过二创的人说一句，第 6 局素材特别好剪，节点清楚，不用硬凑。</p><span class="ref">→ 观众二创</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#ffb03a,#4fd18b)">不</span><b>不熬夜了</b><time>11 月 22 日 23:58</time></div><p>三局两胜制对桃子有利我同意，但男生78 也不是没调整空间，第 7 局不好说。</p><span class="ref">→ 第 7 局预约</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#4fd18b,#9b7bff)">慢</span><b>慢速播放键</b><time>11 月 21 日 14:07</time></div><p>0.5 倍速看第 3 局，会发现男生78 每个反问前面都有半秒停顿，是在算下一句。</p><span class="ref">→ 反问三件套拆解</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#3fd0c9,#ff5b3d)">橘</span><b>橘子汽水味</b><time>11 月 20 日 19:30</time></div><p>第 1 局那个 47 秒我一直以为是剪辑处理过，重新上架的原版听起来更生硬。</p><span class="ref">→ 第 1 局原片</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#ffb03a,#3fd0c9)">旁</span><b>旁观者甲</b><time>11 月 19 日 11:26</time></div><p>中立地说，桃子前期的沉默期有点长，如果不是第 4 局赢了，可能撑不到第 6 局。</p><span class="ref">→ 第 4 局首胜</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#9b7bff,#ffb03a)">长</span><b>长夜漫谈</b><time>11 月 17 日 22:44</time></div><p>复盘之夜第一场两人同时在线那段，比游戏内还好看，尤其是互相拆台又互相圆场。</p><span class="ref">→ 复盘之夜第一场</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#ff5b3d,#9b7bff)">一</span><b>一只小胖橘</b><time>11 月 15 日 16:12</time></div><p>我是从桃子反击切片入坑的，回头补原片才发现前面还有这么多局。</p><span class="ref">→ 反问回敬</span></div>
+          <div class="cmt"><div class="cmt-hd"><span class="ava" style="background:linear-gradient(140deg,#4fd18b,#ffb03a)">数</span><b>数据流小王</b><time>11 月 13 日 09:38</time></div><p>简单统计了一下，男生78 平均每分钟说 210 字，桃子只有 120 字，但后者插话成功率更高。</p><span class="ref">→ 节奏压制分析</span></div>
+        </div>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="block" id="sec-news" aria-labelledby="h-news">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-news">相关资讯</h2>
+            <p>6 条近期具体动态，围绕这条内容线本身</p>
+          </div>
+        </div>
+        <div class="news-list">
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/taozi-j6-zishu/600/400" width="600" height="400" loading="lazy" alt="桃子第6局决策自述直播截图">
+            <div>
+              <time datetime="2026-11-25">2026-11-25</time>
+              <h3>桃子首次正面回应「假装认输」是否为剧本</h3>
+              <p>在决策自述直播中，桃子逐段解释了第 6 局三波反超的取舍，明确表示认输的念头是真的，后续连追是临场决定。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/nan78-chenmo/600/400" width="600" height="400" loading="lazy" alt="男生78连麦回应沉默片段截图">
+            <div>
+              <time datetime="2026-11-24">2026-11-24</time>
+              <h3>男生78 连麦回应沉默片段：确实没想好怎么接</h3>
+              <p>14 分钟的连麦里，他承认第 6 局赛后一度不知道该怎么评价对手，也提到第 7 局会调整回应节奏。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/ju7-yuyue/600/400" width="600" height="400" loading="lazy" alt="第7局三局两胜制预约公告图">
+            <div>
+              <time datetime="2026-11-22">2026-11-22</time>
+              <h3>第 7 局改为三局两胜制，12 月 2 日开打</h3>
+              <p>规则调整后，单局的偶然性被削弱，长赛制下体力分配和输出稳定性将成为新变量。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/chenmo-baqianwan/600/400" width="600" height="400" loading="lazy" alt="沉默两分半切片播放量数据图">
+            <div>
+              <time datetime="2026-11-23">2026-11-23</time>
+              <h3>「沉默两分半」切片播放量突破 8000 万</h3>
+              <p>成为整条内容线播放量第二高的单条切片，仅次于第 1 局 47 秒原片，评论区讨论集中在留白的信息量。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/fupan-zhiye/600/400" width="600" height="400" loading="lazy" alt="复盘之夜联合直播现场图">
+            <div>
+              <time datetime="2026-11-09">2026-11-09</time>
+              <h3>「复盘之夜」第一场同时在线峰值 46 万</h3>
+              <p>两人首次联合直播，主要讨论第 2、3 局，互相拆台又互相圆场的段落被大量二次剪辑。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/huashu-ke2/600/400" width="600" height="400" loading="lazy" alt="男生78话术拆解课第二期封面">
+            <div>
+              <time datetime="2026-11-18">2026-11-18</time>
+              <h3>话术拆解课第二期上线，主题「反问三件套」</h3>
+              <p>把第 3 局的五个反问拆成先确认、再抬高、后收口三步，附上男生78 自己在直播间的补充讲解。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 10 相关推荐 -->
+      <section class="block" id="sec-rel" aria-labelledby="h-rel">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-rel">延伸方向</h2>
+            <p>如果看完了主体内容，这些方向可以继续往下挖</p>
+          </div>
+        </div>
+        <div class="rel-tags">
+          <a href="/#sec-deep">镜像反打的停顿位置 <i>话术</i></a>
+          <a href="/#sec-picks">第 2 局提速失控复盘 <i>节奏</i></a>
+          <a href="/#sec-guide">新观众补课路径 <i>入门</i></a>
+          <a href="/#sec-feed">第 7 局赛制变化 <i>规则</i></a>
+          <a href="/#sec-comments">观众二创镜像对照版 <i>二创</i></a>
+          <a href="/#sec-deep">短句流为什么有效 <i>分析</i></a>
+          <a href="/#sec-rank">六局攻防走势榜 <i>榜单</i></a>
+          <a href="/#sec-news">复盘之夜第二场预告 <i>直播</i></a>
+        </div>
+      </section>
+
+      <!-- 11 战力榜单 -->
+      <section class="block" id="sec-rank" aria-labelledby="h-rank">
+        <div class="block-hd">
+          <div>
+            <h2 id="h-rank">六局战力榜</h2>
+            <p>按单局对抗强度与名场面密度综合排序</p>
+          </div>
+        </div>
+        <ol class="rank">
+          <li><span class="no">1</span><div class="rt"><b>第 6 局 · 假装认输反超</b><span>落后 11 分翻盘，含沉默两分半</span></div><span class="rv">98</span></li>
+          <li><span class="no">2</span><div class="rt"><b>第 3 局 · 五连反问</b><span>节奏压迫巅峰，被模仿最多</span></div><span class="rv">95</span></li>
+          <li><span class="no">3</span><div class="rt"><b>第 5 局 · 你急什么</b><span>四字破防，短句流确立</span></div><span class="rv">91</span></li>
+          <li><span class="no">4</span><div class="rt"><b>第 4 局 · 抓反向首胜</b><span>桃子首次完整对局获胜</span></div><span class="rv">88</span></li>
+          <li><span class="no">5</span><div class="rt"><b>第 1 局 · 47 秒原片</b><span>整条内容线的起点</span></div><span class="rv">86</span></li>
+          <li><span class="no">6</span><div class="rt"><b>第 2 局 · 提速失控</b><span>节奏型选手的崩盘样本</span></div><span class="rv">83</span></li>
+        </ol>
+      </section>
+
+    </main>
+
+    <!-- 右侧辅助栏 -->
+    <aside class="side-col" aria-label="辅助信息">
+
+      <div class="side-panel">
+        <h3>今日更新流</h3>
+        <ul class="side-feed">
+          <li><time>09:30</time><span><b>第 6 局完整实录</b>上线，42 分 18 秒</span></li>
+          <li><time>08:10</time><span><b>桃子决策自述</b>直播回放发布</span></li>
+          <li><time>昨天 21:10</time><span><b>男生78 连麦</b>回应沉默片段</span></li>
+          <li><time>11-23</time><span><b>沉默切片</b>播放破 8000 万</span></li>
+          <li><time>11-22</time><span><b>第 7 局</b>预约开启，改三局两胜</span></li>
+        </ul>
+      </div>
+
+      <div class="side-panel">
+        <h3>热门标签</h3>
+        <div class="side-tags">
+          <a href="/#sec-picks">假装认输</a>
+          <a href="/#sec-picks">五连反问</a>
+          <a href="/#sec-deep">镜像反打</a>
+          <a href="/#sec-picks">沉默两分半</a>
+          <a href="/#sec-deep">节奏压迫</a>
+          <a href="/#sec-picks">你急什么</a>
+          <a href="/#sec-feed">三局两胜</a>
+          <a href="/#sec-news">复盘之夜</a>
+          <a href="/#sec-comments">二创切片</a>
+        </div>
+      </div>
+
+      <div class="side-panel side-cta">
+        <h3>今晚 21:00 连麦复盘</h3>
+        <p>桃子首次逐段复盘第 6 局，男生78 在旁听席实时插话。开播前 30 分钟开放提问入口。</p>
+        <a class="btn btn-main" href="/#sec-feed">查看直播安排</a>
+      </div>
+
+      <div class="side-panel">
+        <h3>数据速览</h3>
+        <ul class="side-feed">
+          <li><time>6</time><span>已收录完整对局</span></li>
+          <li><time>24</time><span>高能切片条目</span></li>
+          <li><time>3.8亿</time><span>累计播放量</span></li>
+          <li><time>58%</time><span>男生78 单局胜率</span></li>
+          <li><time>42%</time><span>桃子单局胜率</span></li>
+        </ul>
+      </div>
+
+    </aside>
+  </div>
+</div>
+
+<!-- 页尾 -->
+<footer class="site-foot">
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <a class="brand" href="/#top" aria-label="返回顶部">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1a0d06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h7a3 3 0 0 1 3 3v9"/>
+            <path d="M20 6h-3a3 3 0 0 0-3 3"/>
+            <path d="M4 18h5"/>
+            <circle cx="19" cy="17" r="2.4" fill="#1a0d06" stroke="none"/>
+            <circle cx="7" cy="17" r="2.4" fill="#1a0d06" stroke="none"/>
+          </svg>
+        </span>
+        <span>
+          <span class="brand-name">男生78怒怼<em>桃子</em></span>
+          <span class="brand-sub">VS · REPLAY · ARCHIVE</span>
+        </span>
+      </a>
+      <p>记录这场双人对线内容线的每一局、每一条切片与每一次复盘。内容为观众整理与二次解读，具体表述以两位主播本人在直播与切片中的说法为准。</p>
+    </div>
+
+    <div class="foot-col">
+      <h4>内容栏目</h4>
+      <ul>
+        <li><a href="/#sec-overview">对决综述</a></li>
+        <li><a href="/#sec-picks">名场面合集</a></li>
+        <li><a href="/#sec-feed">实时动态</a></li>
+        <li><a href="/#sec-cats">分类入口</a></li>
+      </ul>
+    </div>
+
+    <div class="foot-col">
+      <h4>深度与指引</h4>
+      <ul>
+        <li><a href="/#sec-deep">逐局复盘</a></li>
+        <li><a href="/#sec-guide">观赛指南</a></li>
+        <li><a href="/#sec-faq">常见问答</a></li>
+        <li><a href="/#sec-rank">六局战力榜</a></li>
+      </ul>
+    </div>
+
+    <div class="foot-col">
+      <h4>社区与资讯</h4>
+      <ul>
+        <li><a href="/#sec-comments">观众评论</a></li>
+        <li><a href="/#sec-news">相关资讯</a></li>
+        <li><a href="/#sec-rel">延伸方向</a></li>
+        <li><a href="/#sec-feed">直播安排</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bar">
+    <p>本页内容为观众整理的观赛笔记与二次解读，非官方发布渠道；条目数据与时间为示例整理，具体以原片与直播为准。</p>
+    <p>© 2026 男生78怒怼桃子 内容整理 · 站内所有栏目链接均为页内跳转</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var input = document.getElementById('siteSearch');
+  var grid = document.getElementById('pickGrid');
+  var noRes = document.getElementById('noResult');
+  if(!input || !grid) return;
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+  var data = cards.map(function(c){
+    return { el:c, text:(c.textContent || '').toLowerCase() };
+  });
+  function filter(){
+    var q = (input.value || '').trim().toLowerCase();
+    var hit = 0;
+    data.forEach(function(item){
+      var ok = !q || item.text.indexOf(q) !== -1;
+      item.el.style.display = ok ? '' : 'none';
+      if(ok) hit++;
+    });
+    if(noRes) noRes.classList.toggle('on', q !== '' && hit === 0);
+  }
+  input.addEventListener('input', filter);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ input.value = ''; filter(); input.blur(); }
+  });
+})();
+</script>
+</body>
+                </html>
